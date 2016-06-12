@@ -93,7 +93,7 @@ class SensorListener implements SensorEventListener {
       SensorManager.getOrientation(R, orientation);
       azimuth += easing * (orientation[0] - azimuth);
       pitch += easing * (orientation[1] - pitch);
-      roll += easing * (orientation[2] - roll);;
+      roll += easing * (orientation[2] - roll);
     }    
   }
   public void onAccuracyChanged(Sensor sensor, int accuracy) { }
