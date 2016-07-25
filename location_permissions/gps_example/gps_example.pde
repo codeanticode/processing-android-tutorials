@@ -37,9 +37,7 @@ boolean hasLocation = false;
 
 void setup () {
   size(480, 640, P2D);
-  // Sketch stays in portrait mode, even when the phone is rotated
   orientation(PORTRAIT);
-  // Select a font to use
   fontList = PFont.list();
   androidFont = createFont(fontList[0], 26, true);
   textFont(androidFont);
@@ -58,24 +56,9 @@ void draw() {
   }
 }
 
-
 void onPermissionsGranted() {
   initLocation();
 }
-
-/*
-// Override the activity class methods
-void onResume() {
-  super.onResume();
-}
-
-void onPause() {
-  super.onPause();
-  //locationManager.removeGpsStatusListener(locationListener);
-}
-*/
-
-/*****************************************************************/
 
 void initLocation() {
   if (checkPermission(Manifest.permission.ACCESS_FINE_LOCATION) ||
