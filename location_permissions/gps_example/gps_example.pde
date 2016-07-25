@@ -31,7 +31,6 @@ String currentProvider = "";
 // Android fonts
 String[] fontList;
 PFont androidFont;
-Context context; 
 
 boolean hasLocation = false;
 
@@ -68,7 +67,7 @@ void initLocation() {
     //context = getActivity();
     
     // For 4.0+ versions of the mode
-    context = surface.getContext();
+    Context context = surface.getContext();
     
     locationListener = new MyLocationListener();
     locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);    
