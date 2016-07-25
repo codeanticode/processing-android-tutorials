@@ -52,12 +52,8 @@ void draw() {
 
 public void onResume() {
   super.onResume();  
-  
-  // This works for regular apps
-  //Context context = surface.getActivity();
-  
-  // This for fragments:
-  context = (Context) surface.getComponent();
+
+  context = surface.getContext();
   
   listener = new SensorListener();
   manager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
