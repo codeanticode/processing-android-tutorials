@@ -80,7 +80,13 @@ void onPause() {
 void initLocation() {
   if (checkPermission(Manifest.permission.ACCESS_FINE_LOCATION) ||
       checkPermission(Manifest.permission.ACCESS_COARSE_LOCATION)) {
-    context = surface.getActivity();
+    
+    // For 3.x versions of the mode
+    //context = getActivity();
+    
+    // For 4.0+ versions of the mode
+    context = surface.getContext();
+    
     locationListener = new MyLocationListener();
     locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);    
 
