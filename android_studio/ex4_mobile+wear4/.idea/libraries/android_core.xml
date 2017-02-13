@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mobile/libs/android-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

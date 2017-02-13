@@ -1,0 +1,5 @@
+<wearableApp package="processing.test.androidwatchexport">
+  <versionCode>1</versionCode>
+  <versionName>1.0</versionName>
+  <rawPathResId>androidwatchexport_debug</rawPathResId>
+</wearableApp>
