@@ -35,16 +35,17 @@ PFont androidFont;
 boolean hasLocation = false;
 
 void setup () {
-  size(480, 640, P2D);
-  orientation(PORTRAIT);
+  fullScreen();
+  orientation(PORTRAIT);  
   fontList = PFont.list();
   androidFont = createFont(fontList[0], 26, true);
   textFont(androidFont);
+  requestPermission("android.permission.ACCESS_FINE_LOCATION", "initLocation");
 }
 
 void draw() {
   background(0);
-  if (hasLocation) {
+  if (hasPermission("android.permission.ACCESS_FINE_LOCATION")) {
     // Display current GPS data
     text("Latitude: " + currentLatitude, 20, 40);
     text("Longitude: " + currentLongitude, 20, 75);
@@ -55,19 +56,9 @@ void draw() {
   }
 }
 
-void onPermissionsGranted() {
-  initLocation();
-}
-
-void initLocation() {
-  if (checkPermission(Manifest.permission.ACCESS_FINE_LOCATION) ||
-      checkPermission(Manifest.permission.ACCESS_COARSE_LOCATION)) {
-    
-    // For 3.x versions of the mode
-    //context = getActivity();
-    
-    // For 4.0+ versions of the mode
-    Context context = surface.getContext();
+void initLocation(boolean granted) {
+  if (granted) {    
+    Context context = getContext();
     
     locationListener = new MyLocationListener();
     locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);    
