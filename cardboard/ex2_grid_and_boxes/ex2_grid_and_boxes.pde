@@ -1,10 +1,10 @@
-import processing.cardboard.*;
+import processing.vr.*;
 
 PShape grid;
 PShape cubes;
 
 void setup() {
-  fullScreen(PCardboard.STEREO);
+  fullScreen(PVR.STEREO);
   
   grid = createShape();
   grid.beginShape(LINES);
