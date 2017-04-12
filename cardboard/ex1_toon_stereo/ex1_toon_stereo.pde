@@ -1,10 +1,10 @@
-import processing.cardboard.*;
+import processing.vr.*;
 
 PShader toon;
 boolean shaderEnabled = true;  
 
 void setup() {
-  fullScreen(PCardboard.STEREO);  
+  fullScreen(PVR.STEREO);  
   noStroke();
   fill(204);
   toon = loadShader("ToonFrag.glsl", "ToonVert.glsl");
