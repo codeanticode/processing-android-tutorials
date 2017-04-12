@@ -30,6 +30,13 @@ void setup() {
   fullScreen(P2D);
   orientation(PORTRAIT);
   
+  // Version 3 of the mode:
+  context = getActivity();
+  
+  // In the version 4 of the mode, getActivity() is accessed through the surface object.
+  // Use this (and comment the line above) if you get the error "the function getActivity() does not exist"
+  //context = surface.getActivity();
+  
   context = getActivity();
   manager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
   sensor = manager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
