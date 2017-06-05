@@ -28,7 +28,6 @@ public class HandheldActivity extends AppCompatActivity {
     setContentView(R.layout.activity_handheld);
     sketch = new Sketch();
     PFragment fragment = new PFragment();
-    fragment.setSketch(sketch);
-    fragment.init(R.id.content_main, getSupportFragmentManager());
+    fragment.setSketch(sketch, R.id.content_main, R.layout.content_main, getSupportFragmentManager());
   }
 } 

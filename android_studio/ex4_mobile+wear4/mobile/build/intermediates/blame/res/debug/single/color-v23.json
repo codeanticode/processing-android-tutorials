@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/andres/.android/build-cache/97f4c482906960993e168b0aa12b0c64c8de4d9b/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/color-v23/abc_tint_spinner.xml"
+    }
+]

@@ -13,25 +13,19 @@ float ax, ay, az;
 void setup() {
   fullScreen();
   
-  // Version 3 of the mode:
   context = getActivity();
-  
-  // In the version 4 of the mode, getActivity() is accessed through the surface object:
-  //context = surface.getActivity();
   
   manager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
   sensor = manager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
   listener = new AccelerometerListener();
   manager.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_GAME);
   
-  textFont(createFont("Arial", 60));
+  textFont(createFont("SansSerif", 30 * displayDensity));
 }
 
 void draw() {
   background(0);
-  text("X: " + ax, 10, 60);
-  text("Y: " + ay, 10, 120);
-  text("Z: " + az, 10, 180);
+  text("X: " + ax + "\nY: " + ay + "\nZ: " + az, 0, 0, width, height);
 }
 
 class AccelerometerListener implements SensorEventListener {

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    }
+]

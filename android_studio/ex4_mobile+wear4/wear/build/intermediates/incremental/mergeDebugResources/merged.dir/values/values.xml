@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <array name="progress_spinner_sequence"><item>#FFF4B400</item>
+<item>#FFDB4437</item>
+<item>#FF4285F4</item>
+<item>#FF0F9D58</item>
+</array>
+    <bool name="action_choose_expand_selected">true</bool>
+    <bool name="action_choose_symmetrical_dimen">false</bool>
+    <color name="action_button_background">#4D000000</color>
+    <color name="ambient_mode_text">@color/primary_text_dark</color>
+    <color name="black">#000000</color>
+    <color name="black_54p">#8A000000</color>
+    <color name="black_86p">#DE000000</color>
+    <color name="blue">#2979FF</color>
+    <color name="card_default_background">#E0E0E0</color>
+    <color name="circular_button_disabled">@color/grey</color>
+    <color name="circular_button_normal">#0288D1</color>
+    <color name="circular_button_pressed">#01579B</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="dark_blue">#1565C0</color>
+    <color name="dark_grey">#424242</color>
+    <color name="dark_red">#D32F2F</color>
+    <color name="dialog_background">#414141</color>
+    <color name="dialog_shade_background">#606060</color>
+    <color name="disabled_text_light">#E0E0E0</color>
+    <color name="dismiss_close">#FF5151</color>
+    <color name="dismiss_close_pressed">#B83120</color>
+    <color name="dismiss_overlay_bg">#80000000</color>
+    <color name="green">#00C853</color>
+    <color name="grey">#757575</color>
+    <color name="light_grey">#bdbdbd</color>
+    <color name="orange">#FF6D3F</color>
+    <color name="primary_text_dark">@color/white</color>
+    <color name="primary_text_light">@color/dark_grey</color>
+    <color name="red">#FF5252</color>
+    <color name="secondary_text_light">#9E9E9E</color>
+    <color name="semitransparent_grey">#66777777</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="AcceptDenyDialogPreference"><attr format="string" name="dialogTitle"/><attr format="string" name="dialogMessage"/><attr format="reference" name="dialogIcon"/><attr format="boolean" name="showPositiveDialogButton"/><attr format="boolean" name="showNegativeDialogButton"/></declare-styleable>
+    <declare-styleable name="AcceptDenySwitchPreference"><attr name="dialogTitle"/><attr name="dialogMessage"/><attr name="dialogIcon"/><attr name="showPositiveDialogButton"/><attr name="showNegativeDialogButton"/><attr format="boolean" name="showDialogWhenTurningOn"/><attr format="boolean" name="showDialogWhenTurningOff"/></declare-styleable>
+    <declare-styleable name="ActionLabel"><attr name="android:textColor"/><attr name="android:maxLines"/><attr name="android:fontFamily"/><attr name="android:typeface"/><attr name="android:textStyle"/><attr name="android:text"/><attr name="android:gravity"/><attr name="android:lineSpacingExtra"/><attr name="android:lineSpacingMultiplier"/><attr format="dimension" name="minTextSize"/><attr format="dimension" name="maxTextSize"/></declare-styleable>
+    <declare-styleable name="ActionPage"><attr name="android:src"/><attr name="android:color"/><attr name="buttonRippleColor"/><attr name="android:elevation"/><attr name="android:stateListAnimator"/><attr name="pressedButtonTranslationZ"/><attr name="android:textColor"/><attr name="android:maxLines"/><attr name="android:fontFamily"/><attr name="android:typeface"/><attr name="android:textStyle"/><attr name="android:text"/><attr name="maxTextSize"/><attr name="minTextSize"/><attr name="android:gravity"/><attr name="imageScaleMode"/><attr name="android:lineSpacingExtra"/><attr name="android:lineSpacingMultiplier"/></declare-styleable>
+    <declare-styleable name="BoxInsetLayout_Layout"><attr name="layout_box">
+<flag name="left" value="0x01"/>
+<flag name="top" value="0x02"/>
+<flag name="right" value="0x04"/>
+<flag name="bottom" value="0x08"/>
+<flag name="all" value="0x0F"/>
+</attr></declare-styleable>
+    <declare-styleable name="CircledImageView"><attr name="android:src"/><attr format="color" name="circle_color"/><attr format="dimension" name="circle_radius"/><attr format="dimension" name="circle_radius_pressed"/><attr format="dimension" name="circle_border_width"/><attr format="color" name="circle_border_color"/><attr name="circle_border_cap">
+<enum name="butt" value="0"/>
+
+<enum name="round" value="1"/>
+
+<enum name="square" value="2"/>
+
+</attr><attr format="dimension" name="circle_padding"/><attr format="dimension" name="shadow_width"/><attr format="dimension" name="image_circle_percentage"/><attr format="dimension" name="image_horizontal_offcenter_percentage"/><attr format="color" name="image_tint"/><attr format="fraction" name="circle_radius_percent"/><attr format="fraction" name="circle_radius_pressed_percent"/><attr name="square_dimen">
+<enum name="none" value="0"/>
+
+<enum name="height" value="1"/>
+
+<enum name="width" value="2"/>
+
+</attr></declare-styleable>
+    <declare-styleable name="CircularButton"><attr name="android:src"/><attr name="imageScaleMode">
+<enum name="fit" value="0"/>
+
+<enum name="center" value="1"/>
+
+</attr><attr name="android:color"/><attr name="android:clickable"/><attr format="color|reference" name="buttonRippleColor"/><attr name="android:elevation"/><attr name="android:stateListAnimator"/><attr format="dimension" name="pressedButtonTranslationZ"/></declare-styleable>
+    <declare-styleable name="DelayedConfirmationView"><attr format="integer" name="update_interval"/></declare-styleable>
+    <declare-styleable name="DotsPageIndicator"><attr format="dimension" name="dotSpacing"/><attr format="dimension" name="dotRadius"/><attr format="dimension" name="dotRadiusSelected"/><attr format="color" name="dotColor"/><attr format="color" name="dotColorSelected"/><attr format="boolean" name="dotFadeWhenIdle"/><attr format="integer" name="dotFadeOutDelay"/><attr format="integer" name="dotFadeOutDuration"/><attr format="integer" name="dotFadeInDuration"/><attr format="color" name="dotShadowColor"/><attr format="dimension" name="dotShadowRadius"/><attr format="dimension" name="dotShadowDx"/><attr format="dimension" name="dotShadowDy"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="PageIndicatorView"><attr format="dimension" name="pageIndicatorDotSpacing"/><attr format="dimension" name="pageIndicatorDotRadius"/><attr format="dimension" name="pageIndicatorDotRadiusSelected"/><attr format="color" name="pageIndicatorDotColor"/><attr format="color" name="pageIndicatorDotColorSelected"/><attr format="boolean" name="pageIndicatorDotFadeWhenIdle"/><attr format="integer" name="pageIndicatorDotFadeOutDelay"/><attr format="integer" name="pageIndicatorDotFadeOutDuration"/><attr format="integer" name="pageIndicatorDotFadeInDuration"/><attr format="color" name="pageIndicatorDotShadowColor"/><attr format="dimension" name="pageIndicatorDotShadowRadius"/><attr format="dimension" name="pageIndicatorDotShadowDx"/><attr format="dimension" name="pageIndicatorDotShadowDy"/></declare-styleable>
+    <declare-styleable name="PercentLayout_Layout"><attr format="fraction" name="layout_widthPercent"/><attr format="fraction" name="layout_heightPercent"/><attr format="fraction" name="layout_marginPercent"/><attr format="fraction" name="layout_marginLeftPercent"/><attr format="fraction" name="layout_marginTopPercent"/><attr format="fraction" name="layout_marginRightPercent"/><attr format="fraction" name="layout_marginBottomPercent"/><attr format="fraction" name="layout_marginStartPercent"/><attr format="fraction" name="layout_marginEndPercent"/></declare-styleable>
+    <declare-styleable name="ProgressSpinner"><attr format="color|reference" name="color_sequence"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr><attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
+    <declare-styleable name="WatchViewStub"><attr format="reference" name="rectLayout"/><attr format="reference" name="roundLayout"/></declare-styleable>
+    <declare-styleable name="WearableActionDrawer"><attr format="reference" name="action_menu"/><attr format="boolean" name="show_overflow_in_peek"/></declare-styleable>
+    <declare-styleable name="WearableDialogPreference"><attr format="string" name="neutralButtonText"/><attr format="reference" name="positiveButtonIcon"/><attr format="reference" name="neutralButtonIcon"/><attr format="reference" name="negativeButtonIcon"/></declare-styleable>
+    <declare-styleable name="WearableDrawerView"><attr format="reference" name="peek_view"/><attr format="reference" name="drawer_content"/></declare-styleable>
+    <declare-styleable name="WearableFrameLayout"><attr name="layout_gravityRound">
+<flag name="top" value="0x30"/>
+<flag name="bottom" value="0x50"/>
+<flag name="left" value="0x03"/>
+<flag name="right" value="0x05"/>
+<flag name="center_vertical" value="0x10"/>
+<flag name="fill_vertical" value="0x70"/>
+<flag name="center_horizontal" value="0x01"/>
+<flag name="fill_horizontal" value="0x07"/>
+<flag name="center" value="0x11"/>
+<flag name="fill" value="0x77"/>
+<flag name="clip_vertical" value="0x80"/>
+<flag name="clip_horizontal" value="0x08"/>
+<flag name="start" value="0x00800003"/>
+<flag name="end" value="0x00800005"/>
+</attr><attr format="dimension" name="layout_widthRound"/><attr format="dimension" name="layout_heightRound"/><attr format="dimension" name="layout_marginRound"/><attr format="dimension" name="layout_marginLeftRound"/><attr format="dimension" name="layout_marginTopRound"/><attr format="dimension" name="layout_marginRightRound"/><attr format="dimension" name="layout_marginBottomRound"/><attr name="android:foregroundGravity"/><attr name="android:foreground"/><attr name="android:measureAllChildren"/><attr name="android:foregroundTint"/></declare-styleable>
+    <declare-styleable name="WearableNavigationDrawer"><attr name="navigation_style">
+<enum name="single_page" value="0"/>
+
+<enum name="multi_page" value="1"/>
+
+</attr></declare-styleable>
+    <declare-styleable name="WearableRecyclerView"><attr format="fraction" name="bezel_width"/><attr format="boolean" name="circular_scrolling_gesture_enabled"/><attr format="float" name="scroll_degrees_per_screen"/></declare-styleable>
+    <item format="float" name="action_chooser_base_radius_percent" type="dimen">.25</item>
+    <item format="float" name="action_chooser_bounce_in_percent" type="dimen">.1</item>
+    <item format="float" name="action_chooser_icon_height_percent" type="dimen">.5</item>
+    <item format="float" name="action_chooser_max_radius_percent" type="dimen">.5</item>
+    <item format="float" name="action_chooser_min_drag_select_percent" type="dimen">.5</item>
+    <item format="float" name="action_chooser_min_swipe_select_percent" type="dimen">.25</item>
+    <dimen name="action_drawer_expand_icon_top_margin">-3dp</dimen>
+    <dimen name="action_drawer_item_bottom_padding">8dp</dimen>
+    <dimen name="action_drawer_item_icon_padding">7dp</dimen>
+    <dimen name="action_drawer_item_icon_right_margin">8dp</dimen>
+    <dimen name="action_drawer_item_icon_size">36dp</dimen>
+    <dimen name="action_drawer_item_text_size">14sp</dimen>
+    <dimen name="action_drawer_item_top_padding">8dp</dimen>
+    <dimen name="action_drawer_peek_top_padding">2dp</dimen>
+    <dimen name="action_drawer_peek_view_height">43dp</dimen>
+    <dimen name="card_content_padding_rect_top">4dp</dimen>
+    <dimen name="circular_button_elevation">1dp</dimen>
+    <dimen name="circular_button_elevation_pressed">6dp</dimen>
+    <dimen name="close_button_diameter">104dp</dimen>
+    <dimen name="confirmation_overlay_image_size">64dp</dimen>
+    <dimen name="confirmation_overlay_text_size">14sp</dimen>
+    <dimen name="diag_button_bottom_padding">10dp</dimen>
+    <dimen name="diag_button_bottom_padding_round">32dp</dimen>
+    <dimen name="diag_button_side_padding_right_round">22dp</dimen>
+    <dimen name="diag_content_bottom_padding">10dp</dimen>
+    <dimen name="diag_content_side_padding">16dp</dimen>
+    <dimen name="diag_content_side_padding_round">36dp</dimen>
+    <dimen name="diag_content_top_padding">10dp</dimen>
+    <dimen name="diag_content_top_padding_round">30dp</dimen>
+    <dimen name="diag_floating_height">16dp</dimen>
+    <dimen name="diag_shade_height_rect">90dp</dimen>
+    <dimen name="diag_shade_height_round">108dp</dimen>
+    <dimen name="dismiss_padding">16dp</dimen>
+    <dimen name="drawer_view_edge_size">38dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="nav_drawer_single_page_circle_radius">24dp</dimen>
+    <dimen name="nav_drawer_single_page_icon_padding">6dp</dimen>
+    <dimen name="nav_drawer_single_page_icon_size">28dp</dimen>
+    <dimen name="nav_drawer_text_size">12sp</dimen>
+    <dimen name="peek_view_bottom_padding">8dp</dimen>
+    <dimen name="peek_view_icon_size">22dp</dimen>
+    <dimen name="peek_view_top_padding">8dp</dimen>
+    <dimen name="screen_percentage_05">0dp</dimen>
+    <dimen name="screen_percentage_10">0dp</dimen>
+    <dimen name="screen_percentage_12">0dp</dimen>
+    <dimen name="screen_percentage_15">0dp</dimen>
+    <dimen name="wearable_drawer_view_elevation">12dp</dimen>
+    <dimen name="wrv_curve_default_x_offset">24dp</dimen>
+    <item name="action_drawer_item_first_item_top_padding" type="fraction">15%</item>
+    <item name="action_drawer_item_last_item_bottom_padding" type="fraction">15%</item>
+    <item name="action_drawer_item_left_padding" type="fraction">15%</item>
+    <item name="action_drawer_item_right_padding" type="fraction">10%</item>
+    <item name="confirmation_overlay_margin_above_text" type="fraction">5%</item>
+    <item name="confirmation_overlay_margin_side" type="fraction">4.167%</item>
+    <fraction name="nav_drawer_margin_2_items">16.66%</fraction>
+    <fraction name="nav_drawer_margin_3_items">13%</fraction>
+    <fraction name="nav_drawer_margin_4_items_horizontal">13%</fraction>
+    <fraction name="nav_drawer_margin_4_items_vertical">16.9%</fraction>
+    <fraction name="nav_drawer_margin_5_items_horizontal_middle_row">13%</fraction>
+    <fraction name="nav_drawer_margin_5_items_horizontal_outer_rows">27.4%</fraction>
+    <fraction name="nav_drawer_margin_5_items_vertical">16.9%</fraction>
+    <fraction name="nav_drawer_margin_6_items_horizontal">16%</fraction>
+    <fraction name="nav_drawer_margin_6_items_vertical">26.8%</fraction>
+    <fraction name="nav_drawer_margin_7_items_horizontal_middle_row">13%</fraction>
+    <fraction name="nav_drawer_margin_7_items_horizontal_outer_rows">27.4%</fraction>
+    <fraction name="nav_drawer_margin_7_items_vertical">16.9%</fraction>
+    <fraction name="nav_drawer_text_margin">13%</fraction>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="wearable_support_navigation_drawer_view_pager" type="id"/>
+    <item name="wearable_support_overlay_confirmation" type="id"/>
+    <integer name="action_choose_expand_full_duration">1000</integer>
+    <integer name="action_chooser_anim_duration">250</integer>
+    <integer name="action_chooser_bounce_delay">500</integer>
+    <integer name="action_chooser_confirmation_duration">500</integer>
+    <integer name="google_play_services_version">10298000</integer>
+    <plurals name="time_difference_short_days"><item quantity="one"><ns1:g id="number_of_days">%d</ns1:g>d</item>
+<item quantity="other"><ns1:g id="number_of_days">%d</ns1:g>d</item>
+</plurals>
+    <plurals name="time_difference_short_hours"><item quantity="one"><ns1:g id="number_of_hours">%d</ns1:g>h</item>
+<item quantity="other"><ns1:g id="number_of_hours">%d</ns1:g>h</item>
+</plurals>
+    <plurals name="time_difference_short_minutes"><item quantity="one"><ns1:g id="number_of_minutes">%d</ns1:g>m</item>
+<item quantity="other"><ns1:g id="number_of_minutes">%d</ns1:g>m</item>
+</plurals>
+    <plurals name="time_difference_words_days"><item quantity="one"><ns1:g id="number_of_days">%d</ns1:g> day</item>
+<item quantity="other"><ns1:g id="number_of_days">%d</ns1:g> days</item>
+</plurals>
+    <plurals name="time_difference_words_hours"><item quantity="one"><ns1:g id="number_of_hours">%d</ns1:g> hour</item>
+<item quantity="other"><ns1:g id="number_of_hours">%d</ns1:g> hours</item>
+</plurals>
+    <plurals name="time_difference_words_minutes"><item quantity="one"><ns1:g id="number_of_minutes">%d</ns1:g> min</item>
+<item quantity="other"><ns1:g id="number_of_minutes">%d</ns1:g> mins</item>
+</plurals>
+    <string name="buttons_rect_bottom_center">Bottom</string>
+    <string name="buttons_rect_bottom_left">Bottom left</string>
+    <string name="buttons_rect_bottom_right">Bottom right</string>
+    <string name="buttons_rect_left_bottom">Bottom, left side</string>
+    <string name="buttons_rect_left_center">Center left</string>
+    <string name="buttons_rect_left_top">Top, left side</string>
+    <string name="buttons_rect_right_bottom">Bottom, right side</string>
+    <string name="buttons_rect_right_center">Center right</string>
+    <string name="buttons_rect_right_top">Top, right side</string>
+    <string name="buttons_rect_top_center">Top</string>
+    <string name="buttons_rect_top_left">Top left</string>
+    <string name="buttons_rect_top_right">Top right</string>
+    <string name="buttons_round_bottom_center">Bottom</string>
+    <string name="buttons_round_bottom_left">Bottom left</string>
+    <string name="buttons_round_bottom_left_lower">Bottom left, lower</string>
+    <string name="buttons_round_bottom_left_upper">Bottom left, upper</string>
+    <string name="buttons_round_bottom_right">Bottom right</string>
+    <string name="buttons_round_bottom_right_lower">Bottom right, lower</string>
+    <string name="buttons_round_bottom_right_upper">Bottom right, upper</string>
+    <string name="buttons_round_center_left">Center left</string>
+    <string name="buttons_round_center_right">Center right</string>
+    <string name="buttons_round_top_center">Top</string>
+    <string name="buttons_round_top_left">Top left</string>
+    <string name="buttons_round_top_left_lower">Top left, lower</string>
+    <string name="buttons_round_top_left_upper">Top left, upper</string>
+    <string name="buttons_round_top_right">Top right</string>
+    <string name="buttons_round_top_right_lower">Top right, lower</string>
+    <string name="buttons_round_top_right_upper">Top right, upper</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="dismiss_overlay_button_label">Quit</string>
+    <string name="generic_cancel">Cancel</string>
+    <string name="generic_yes">Yes</string>
+    <string name="navigation_drawer_content_description">Navigation drawer</string>
+    <string name="time_difference_now">now</string>
+    <string name="time_difference_short_days_and_hours"><ns1:g example="3d" id="short_days">%1$s</ns1:g>\u0020<ns1:g example="13h" id="short_hours">%2$s</ns1:g></string>
+    <string name="time_difference_short_hours_and_minutes"><ns1:g example="13h" id="short_hours">%1$s</ns1:g>\u0020<ns1:g example="58m" id="short_minutes">%2$s</ns1:g></string>
+    <style name="ConfirmationActivity" parent="android:Theme.Translucent.NoTitleBar.Fullscreen">
+<item name="android:activityOpenEnterAnimation">@null</item>
+<item name="android:windowAnimationStyle">@null</item>
+<item name="android:windowEnterAnimation">@null</item>
+</style>
+    <style name="SinglePageNavDrawerIconStyle">
+<item name="android:layout_width">@dimen/nav_drawer_single_page_icon_size</item>
+<item name="android:layout_height">@dimen/nav_drawer_single_page_icon_size</item>
+<item name="android:padding">@dimen/nav_drawer_single_page_icon_padding</item>
+<item name="circle_color">#33ffffff</item>
+<item name="android:clipToPadding">false</item>
+<item name="circle_radius">@dimen/nav_drawer_single_page_circle_radius</item>
+</style>
+    <style name="SinglePageNavDrawerTextStyle">
+<item name="android:layout_width">match_parent</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:textSize">@dimen/nav_drawer_text_size</item>
+<item name="layout_marginEndPercent">@fraction/nav_drawer_text_margin</item>
+<item name="android:maxLines">2</item>
+<item name="android:gravity">center</item>
+<item name="layout_marginTopPercent">@fraction/nav_drawer_text_margin</item>
+<item name="layout_marginStartPercent">@fraction/nav_drawer_text_margin</item>
+<item name="android:fontFamily">sans-serif-condensed</item>
+</style>
+</resources>

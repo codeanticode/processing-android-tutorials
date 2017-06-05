@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v21/notification_action.xml"
+    }
+]

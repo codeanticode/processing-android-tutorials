@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w240dp-v13/values-w240dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/values-w240dp-v13/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 222,
+                        "endColumn": 47,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 51,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/values-w240dp-v13/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 270,
+                        "endColumn": 47,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 53,
+                    "endOffset": 208
+                },
+                "from": {
+                    "file": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/values-w240dp-v13/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 318,
+                        "endColumn": 49,
+                        "endOffset": 367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 213,
+                    "endColumn": 51,
+                    "endOffset": 260
+                },
+                "from": {
+                    "file": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/values-w240dp-v13/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 368,
+                        "endColumn": 47,
+                        "endOffset": 415
+                    }
+                }
+            }
+        ]
+    }
+]

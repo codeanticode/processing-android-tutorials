@@ -3,10 +3,6 @@ package processing.test.androidwatchexport;
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
-    public void settings() {
-        layout(R.layout.content_main, P3D);
-    }
-
     public void setup() {
         textFont(createFont("Serif", 80));
         textAlign(CENTER, CENTER);
@@ -28,6 +24,9 @@ public class Sketch extends PApplet {
         rotateX(frameCount * 0.01f);
         rotateY(frameCount * 0.01f);
         box(100);
-
     }
+
+  public void settings() {
+    fullScreen(P3D);
+  }
 }

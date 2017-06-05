@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w228dp-v13/values-w228dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/values-w228dp-v13/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 222,
+                        "endColumn": 49,
+                        "endOffset": 271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 53,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/values-w228dp-v13/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 272,
+                        "endColumn": 49,
+                        "endOffset": 321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 54,
+                    "endOffset": 213
+                },
+                "from": {
+                    "file": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/values-w228dp-v13/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 322,
+                        "endColumn": 50,
+                        "endOffset": 372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 218,
+                    "endColumn": 53,
+                    "endOffset": 267
+                },
+                "from": {
+                    "file": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/values-w228dp-v13/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 373,
+                        "endColumn": 49,
+                        "endOffset": 422
+                    }
+                }
+            }
+        ]
+    }
+]

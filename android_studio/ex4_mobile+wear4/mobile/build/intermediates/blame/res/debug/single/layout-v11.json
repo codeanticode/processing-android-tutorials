@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/res/layout-v11/notification_media_action.xml"
+    }
+]

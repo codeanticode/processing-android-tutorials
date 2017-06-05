@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardText" parent="CardTextBase">
+<item name="android:hyphenationFrequency">normal</item>
+<item name="android:breakStrategy">balanced</item>
+</style>
+    <style name="CardTitle" parent="CardTitleBase">
+<item name="android:hyphenationFrequency">normal</item>
+<item name="android:breakStrategy">balanced</item>
+</style>
+    <style name="WearableActionDrawerItemText">
+<item name="android:textSize">@dimen/action_drawer_item_text_size</item>
+<item name="android:ellipsize">end</item>
+<item name="android:maxLines">3</item>
+<item name="android:layout_gravity">center_vertical</item>
+<item name="android:textColor">?android:attr/textColorPrimary</item>
+<item name="android:fontFamily">sans-serif-condensed-light</item>
+</style>
+    <style name="WearableWatchFaceSettings" parent="android:Theme.DeviceDefault.Dialog.Alert">
+</style>
+</resources>

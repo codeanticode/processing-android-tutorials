@@ -1,18 +1,10 @@
 package processing.test.processingintegration;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.view.ViewTreeObserver;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.os.Build;
-
 import processing.android.PFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,36 +18,18 @@ public class MainActivity extends AppCompatActivity {
     setSupportActionBar(toolbar);
 
     sketch = new Sketch();
-    PFragment fragment = new PFragment();
-    fragment.setSketch(sketch);
-    fragment.init(R.id.content_main, getSupportFragmentManager());
+    PFragment fragment = new PFragment(sketch);
+    fragment.setLayout(R.layout.content_main, R.id.content_main, this);
+  }
 
-//    FragmentManager fragmentManager = getSupportFragmentManager();
-//    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-//    fragmentTransaction.add(R.id.content_main, fragment);
-//    fragmentTransaction.commit();
-
-
-
-//    final View parent = findViewById(R.id.content_main);
-//    parent.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-//        @Override
-//        public void onGlobalLayout() {
-//            int availableWidth = parent.getMeasuredWidth();
-//            int availableHeight = parent.getMeasuredHeight();
-//            if (availableHeight > 0 && availableWidth > 0) {
-//              System.err.println(availableWidth + " " + availableHeight);
-//              if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
-//                parent.getViewTreeObserver().removeGlobalOnLayoutListener(this);
-//              } else {
-//                parent.getViewTreeObserver().removeOnGlobalLayoutListener(this);
-//              }
-//
-//            }
-//        }
-//
-//
-//    });
+  @Override
+  public void onRequestPermissionsResult(int requestCode,
+                                         String permissions[],
+                                         int[] grantResults) {
+    if (sketch != null) {
+      sketch.onRequestPermissionsResult(
+      requestCode, permissions, grantResults);
+    }
   }
 
   @Override

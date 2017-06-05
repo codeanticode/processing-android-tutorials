@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/ic_cc_checkmark.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/ic_cc_checkmark.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/accept_deny_dialog_positive_bg.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/accept_deny_dialog_positive_bg.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/accept_deny_dialog_negative_bg.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/accept_deny_dialog_negative_bg.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/ic_expand_more_white_22.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/ic_expand_more_white_22.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/open_on_phone_animation.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/open_on_phone_animation.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/open_on_phone.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/open_on_phone.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/ic_cc_clear.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/ic_cc_clear.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/generic_confirmation.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/generic_confirmation.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/preference_wrapped_icon.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/preference_wrapped_icon.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/drawable-v21/generic_confirmation_animation.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/drawable-v21/generic_confirmation_animation.xml"
+    }
+]

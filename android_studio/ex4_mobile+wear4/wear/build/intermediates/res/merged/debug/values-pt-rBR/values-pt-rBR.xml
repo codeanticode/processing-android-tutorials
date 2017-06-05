@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="6044628401320465106" name="time_difference_short_days"><item quantity="one"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> d</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> d</item>
+</plurals>
+    <plurals formatted="false" msgid="9209554600411186949" name="time_difference_short_hours"><item quantity="one"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> h</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> h</item>
+</plurals>
+    <plurals formatted="false" msgid="6799968572793078120" name="time_difference_short_minutes"><item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> m</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> m</item>
+</plurals>
+    <plurals formatted="false" msgid="7958173734825557821" name="time_difference_words_days"><item quantity="one"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> dias</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> dias</item>
+</plurals>
+    <plurals formatted="false" msgid="6659708596739126724" name="time_difference_words_hours"><item quantity="one"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> horas</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> horas</item>
+</plurals>
+    <plurals formatted="false" msgid="5776851900234724977" name="time_difference_words_minutes"><item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> min</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> min</item>
+</plurals>
+    <string msgid="2392275098186720450" name="buttons_rect_bottom_center">"Parte inferior"</string>
+    <string msgid="8019030592199928760" name="buttons_rect_bottom_left">"Parte inferior esquerda"</string>
+    <string msgid="7032364303033228242" name="buttons_rect_bottom_right">"Parte inferior direita"</string>
+    <string msgid="8926393267810862702" name="buttons_rect_left_bottom">"Parte inferior, lado esquerdo"</string>
+    <string msgid="8454996931469487054" name="buttons_rect_left_center">"Parte central esquerda"</string>
+    <string msgid="4253496812046397202" name="buttons_rect_left_top">"Parte superior, lado esquerdo"</string>
+    <string msgid="2953342748755410698" name="buttons_rect_right_bottom">"Parte inferior, lado direito"</string>
+    <string msgid="6444930972483368545" name="buttons_rect_right_center">"Parte central direita"</string>
+    <string msgid="8233353769931572306" name="buttons_rect_right_top">"Parte superior, lado direito"</string>
+    <string msgid="701028376099498620" name="buttons_rect_top_center">"Parte superior"</string>
+    <string msgid="2793005097226316833" name="buttons_rect_top_left">"Parte superior esquerda"</string>
+    <string msgid="5242720590797179216" name="buttons_rect_top_right">"Parte superior direita"</string>
+    <string msgid="1062213636886296984" name="buttons_round_bottom_center">"Parte inferior"</string>
+    <string msgid="4240105703428240165" name="buttons_round_bottom_left">"Parte inferior esquerda"</string>
+    <string msgid="2170403244243537583" name="buttons_round_bottom_left_lower">"Parte inferior esquerda, inferior"</string>
+    <string msgid="4971879160739362911" name="buttons_round_bottom_left_upper">"Parte inferior esquerda, superior"</string>
+    <string msgid="3805017532700326567" name="buttons_round_bottom_right">"Parte inferior direita"</string>
+    <string msgid="6856386193261962647" name="buttons_round_bottom_right_lower">"Parte inferior direita, inferior"</string>
+    <string msgid="3297691901098662241" name="buttons_round_bottom_right_upper">"Parte inferior direita, superior"</string>
+    <string msgid="4180117237132291640" name="buttons_round_center_left">"Parte central esquerda"</string>
+    <string msgid="2372638721705594674" name="buttons_round_center_right">"Parte central direita"</string>
+    <string msgid="3660790088455649953" name="buttons_round_top_center">"Parte superior"</string>
+    <string msgid="1548749953449352214" name="buttons_round_top_left">"Parte superior esquerda"</string>
+    <string msgid="2662257990050998307" name="buttons_round_top_left_lower">"Parte superior esquerda, inferior"</string>
+    <string msgid="8645976381442398995" name="buttons_round_top_left_upper">"Parte superior esquerda, superior"</string>
+    <string msgid="223683024116278216" name="buttons_round_top_right">"Parte superior direita"</string>
+    <string msgid="5362570598213836713" name="buttons_round_top_right_lower">"Parte superior direita, inferior"</string>
+    <string msgid="8652947447241978294" name="buttons_round_top_right_upper">"Parte superior direita, superior"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ativar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com o Google Play Services ativado."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ativar o Google Play Services"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"O app <ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Instalar o Google Play Services"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erro do Google Play Services"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"O app <ns1:g id="APP_NAME">%1$s</ns1:g> está com problemas com o Google Play Services. Tente novamente."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"O app <ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não é compatível com seu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com uma versão atualizada do Google Play Services."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Atualizar o Google Play Services"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual está sendo atualizado no momento."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"É necessária uma nova versão do Google Play Services. Ele será atualizado em breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no smartphone"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Fazer login"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Fazer login com o Google"</string>
+    <string msgid="4431314454967965046" name="dismiss_overlay_button_label">"Sair"</string>
+    <string msgid="4031765397716487527" name="generic_cancel">"Cancelar"</string>
+    <string msgid="9120485112909311969" name="generic_yes">"Sim"</string>
+    <string msgid="4674705273641635102" name="navigation_drawer_content_description">"Gaveta de navegação"</string>
+    <string msgid="4600747107629098989" name="time_difference_now">"agora"</string>
+    <string msgid="3432160628957797741" name="time_difference_short_days_and_hours">"<ns1:g id="SHORT_DAYS">%1$s</ns1:g> <ns1:g id="SHORT_HOURS">%2$s</ns1:g>"</string>
+    <string msgid="4219196550677438545" name="time_difference_short_hours_and_minutes">"<ns1:g id="SHORT_HOURS">%1$s</ns1:g> <ns1:g id="SHORT_MINUTES">%2$s</ns1:g>"</string>
+</resources>

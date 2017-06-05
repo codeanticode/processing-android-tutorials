@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/interpolator-v21/open_on_phone_animation_interpolator_0.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/interpolator-v21/open_on_phone_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/interpolator-v21/generic_confirmation_animation_interpolator_0.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/interpolator-v21/generic_confirmation_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/interpolator-v21/open_on_phone_animation_interpolator_1.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/interpolator-v21/open_on_phone_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/interpolator-v21/generic_confirmation_animation_interpolator_2.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/interpolator-v21/generic_confirmation_animation_interpolator_2.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/interpolator-v21/generic_confirmation_animation_interpolator_1.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/interpolator-v21/generic_confirmation_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/interpolator-v21/generic_confirmation_animation_interpolator_3.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/interpolator-v21/generic_confirmation_animation_interpolator_3.xml"
+    }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="processing.test.androidwatchexport.test">
+
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="25" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="processing.test.androidwatchexport"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for processing.test.androidwatchexport"/>
+</manifest>

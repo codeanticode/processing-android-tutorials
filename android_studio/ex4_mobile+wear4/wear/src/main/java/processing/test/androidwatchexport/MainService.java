@@ -28,13 +28,13 @@ public class MainService extends PWatchFaceCanvas {
   private static final String KEY_PERMISSIONS = "permissions";
   private static final String KEY_GRANT_RESULTS = "grantResults";
   private static final String KEY_REQUEST_CODE = "requestCode";      
-  
-  public MainService() {
-    super();
+
+  @Override
+  public PApplet createSketch() {
     PApplet sketch = new AndroidWatchExport();
-    setSketch(sketch);
+    return sketch;
   }
-  
+
   // https://developer.android.com/training/articles/wear-permissions.html
   // Inspired by PermissionHelper.java from Michael von Glasow:
   // https://github.com/mvglasow/satstat/blob/master/src/com/vonglasow/michael/satstat/utils/PermissionHelper.java

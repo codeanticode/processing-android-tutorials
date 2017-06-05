@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="6044628401320465106" name="time_difference_short_days"><item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g>일</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_DAYS_0">%d</ns1:g>일</item>
+</plurals>
+    <plurals formatted="false" msgid="9209554600411186949" name="time_difference_short_hours"><item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g>시간</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_HOURS_0">%d</ns1:g>시간</item>
+</plurals>
+    <plurals formatted="false" msgid="6799968572793078120" name="time_difference_short_minutes"><item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g>분</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_0">%d</ns1:g>분</item>
+</plurals>
+    <plurals formatted="false" msgid="7958173734825557821" name="time_difference_words_days"><item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g>일</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_DAYS_0">%d</ns1:g>일</item>
+</plurals>
+    <plurals formatted="false" msgid="6659708596739126724" name="time_difference_words_hours"><item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g>시간</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_HOURS_0">%d</ns1:g>시간</item>
+</plurals>
+    <plurals formatted="false" msgid="5776851900234724977" name="time_difference_words_minutes"><item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g>분</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_0">%d</ns1:g>분</item>
+</plurals>
+    <string msgid="2392275098186720450" name="buttons_rect_bottom_center">"하단"</string>
+    <string msgid="8019030592199928760" name="buttons_rect_bottom_left">"왼쪽 하단"</string>
+    <string msgid="7032364303033228242" name="buttons_rect_bottom_right">"오른쪽 하단"</string>
+    <string msgid="8926393267810862702" name="buttons_rect_left_bottom">"하단 왼쪽"</string>
+    <string msgid="8454996931469487054" name="buttons_rect_left_center">"왼쪽 중간"</string>
+    <string msgid="4253496812046397202" name="buttons_rect_left_top">"상단 왼쪽"</string>
+    <string msgid="2953342748755410698" name="buttons_rect_right_bottom">"하단 오른쪽"</string>
+    <string msgid="6444930972483368545" name="buttons_rect_right_center">"오른쪽 중간"</string>
+    <string msgid="8233353769931572306" name="buttons_rect_right_top">"상단 오른쪽"</string>
+    <string msgid="701028376099498620" name="buttons_rect_top_center">"상단"</string>
+    <string msgid="2793005097226316833" name="buttons_rect_top_left">"왼쪽 상단"</string>
+    <string msgid="5242720590797179216" name="buttons_rect_top_right">"오른쪽 상단"</string>
+    <string msgid="1062213636886296984" name="buttons_round_bottom_center">"하단"</string>
+    <string msgid="4240105703428240165" name="buttons_round_bottom_left">"왼쪽 하단"</string>
+    <string msgid="2170403244243537583" name="buttons_round_bottom_left_lower">"왼쪽 하단 아래쪽"</string>
+    <string msgid="4971879160739362911" name="buttons_round_bottom_left_upper">"왼쪽 하단 위쪽"</string>
+    <string msgid="3805017532700326567" name="buttons_round_bottom_right">"오른쪽 하단"</string>
+    <string msgid="6856386193261962647" name="buttons_round_bottom_right_lower">"오른쪽 하단 아래쪽"</string>
+    <string msgid="3297691901098662241" name="buttons_round_bottom_right_upper">"오른쪽 하단 위쪽"</string>
+    <string msgid="4180117237132291640" name="buttons_round_center_left">"왼쪽 중간"</string>
+    <string msgid="2372638721705594674" name="buttons_round_center_right">"오른쪽 중간"</string>
+    <string msgid="3660790088455649953" name="buttons_round_top_center">"상단"</string>
+    <string msgid="1548749953449352214" name="buttons_round_top_left">"왼쪽 상단"</string>
+    <string msgid="2662257990050998307" name="buttons_round_top_left_lower">"왼쪽 상단 아래쪽"</string>
+    <string msgid="8645976381442398995" name="buttons_round_top_left_upper">"왼쪽 상단 위쪽"</string>
+    <string msgid="223683024116278216" name="buttons_round_top_right">"오른쪽 상단"</string>
+    <string msgid="5362570598213836713" name="buttons_round_top_right_lower">"오른쪽 상단 아래쪽"</string>
+    <string msgid="8652947447241978294" name="buttons_round_top_right_upper">"오른쪽 상단 위쪽"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"사용 설정"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play 서비스를 사용하도록 설정해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 작동합니다."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play 서비스 사용"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"설치"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"기기에 Google Play 서비스가 설치되어 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play 서비스 설치"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play 서비스 오류"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>은(는) Google Play 서비스 없이는 실행되지 않으나, 기기에서 Google Play 서비스를 지원하지 않습니다."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"업데이트"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Google Play 서비스를 업데이트해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play 서비스 업데이트"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"현재 업데이트 중인 Google Play 서비스가 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"스마트폰에서 열기"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"로그인"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
+    <string msgid="4431314454967965046" name="dismiss_overlay_button_label">"종료"</string>
+    <string msgid="4031765397716487527" name="generic_cancel">"취소"</string>
+    <string msgid="9120485112909311969" name="generic_yes">"예"</string>
+    <string msgid="4674705273641635102" name="navigation_drawer_content_description">"탐색 창"</string>
+    <string msgid="4600747107629098989" name="time_difference_now">"지금"</string>
+    <string msgid="3432160628957797741" name="time_difference_short_days_and_hours">"<ns1:g id="SHORT_DAYS">%1$s</ns1:g> <ns1:g id="SHORT_HOURS">%2$s</ns1:g>"</string>
+    <string msgid="4219196550677438545" name="time_difference_short_hours_and_minutes">"<ns1:g id="SHORT_HOURS">%1$s</ns1:g> <ns1:g id="SHORT_MINUTES">%2$s</ns1:g>"</string>
+</resources>

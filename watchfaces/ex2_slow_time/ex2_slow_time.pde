@@ -9,7 +9,7 @@ void setup() {
   fullScreen();
   frameRate(1);
   dots = new ArrayList<PVector>();
-  Context context = (Context) surface.getComponent();
+  Context context = getContext();
   vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
 }
 
@@ -17,7 +17,7 @@ void draw() {
   int time = hour() * 60 + minute();
   if (time == 0) dots.clear();
   float x = map(time, 0, totalMin, 0, width);
-  if (ambientMode) {
+  if (wearAmbient()) {
     background(0);
     noFill();
     stroke(255);    

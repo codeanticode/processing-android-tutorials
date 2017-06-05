@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="6044628401320465106" name="time_difference_short_days"><item quantity="one"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> दिन</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> दिन</item>
+</plurals>
+    <plurals formatted="false" msgid="9209554600411186949" name="time_difference_short_hours"><item quantity="one"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> घंटा</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> घंटे</item>
+</plurals>
+    <plurals formatted="false" msgid="6799968572793078120" name="time_difference_short_minutes"><item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> मि.</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> मि.</item>
+</plurals>
+    <plurals formatted="false" msgid="7958173734825557821" name="time_difference_words_days"><item quantity="one"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> दिन</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> दिन</item>
+</plurals>
+    <plurals formatted="false" msgid="6659708596739126724" name="time_difference_words_hours"><item quantity="one"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> घंटे</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> घंटे</item>
+</plurals>
+    <plurals formatted="false" msgid="5776851900234724977" name="time_difference_words_minutes"><item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> मि.</item>
+<item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> मि.</item>
+</plurals>
+    <string msgid="2392275098186720450" name="buttons_rect_bottom_center">"निचला"</string>
+    <string msgid="8019030592199928760" name="buttons_rect_bottom_left">"निचला बायां"</string>
+    <string msgid="7032364303033228242" name="buttons_rect_bottom_right">"निचला दायां"</string>
+    <string msgid="8926393267810862702" name="buttons_rect_left_bottom">"नीचे बाईं ओर"</string>
+    <string msgid="8454996931469487054" name="buttons_rect_left_center">"मध्य में बाईं ओर"</string>
+    <string msgid="4253496812046397202" name="buttons_rect_left_top">"ऊपर बाईं ओर"</string>
+    <string msgid="2953342748755410698" name="buttons_rect_right_bottom">"नीचे दाईं ओर"</string>
+    <string msgid="6444930972483368545" name="buttons_rect_right_center">"मध्य में दाईं ओर"</string>
+    <string msgid="8233353769931572306" name="buttons_rect_right_top">"ऊपर दाईं ओर"</string>
+    <string msgid="701028376099498620" name="buttons_rect_top_center">"शीर्ष"</string>
+    <string msgid="2793005097226316833" name="buttons_rect_top_left">"ऊपर बाईं ओर"</string>
+    <string msgid="5242720590797179216" name="buttons_rect_top_right">"ऊपर दाईं ओर"</string>
+    <string msgid="1062213636886296984" name="buttons_round_bottom_center">"निचला"</string>
+    <string msgid="4240105703428240165" name="buttons_round_bottom_left">"निचला बायां"</string>
+    <string msgid="2170403244243537583" name="buttons_round_bottom_left_lower">"नीचे बायां, निचला"</string>
+    <string msgid="4971879160739362911" name="buttons_round_bottom_left_upper">"नीचे बायां, ऊपरी"</string>
+    <string msgid="3805017532700326567" name="buttons_round_bottom_right">"निचला दायां"</string>
+    <string msgid="6856386193261962647" name="buttons_round_bottom_right_lower">"नीचे दायां, निचला"</string>
+    <string msgid="3297691901098662241" name="buttons_round_bottom_right_upper">"नीचे दायां, ऊपरी"</string>
+    <string msgid="4180117237132291640" name="buttons_round_center_left">"मध्य में बाईं ओर"</string>
+    <string msgid="2372638721705594674" name="buttons_round_center_right">"मध्य में दाईं ओर"</string>
+    <string msgid="3660790088455649953" name="buttons_round_top_center">"शीर्ष"</string>
+    <string msgid="1548749953449352214" name="buttons_round_top_left">"ऊपर बाईं ओर"</string>
+    <string msgid="2662257990050998307" name="buttons_round_top_left_lower">"ऊपर बाईं ओर, निचला"</string>
+    <string msgid="8645976381442398995" name="buttons_round_top_left_upper">"ऊपर बाईं ओर, ऊपरी"</string>
+    <string msgid="223683024116278216" name="buttons_round_top_right">"ऊपर दाईं ओर"</string>
+    <string msgid="5362570598213836713" name="buttons_round_top_right_lower">"ऊपर दाईं ओर, निचला"</string>
+    <string msgid="8652947447241978294" name="buttons_round_top_right_upper">"ऊपर दाईं ओर, ऊपरी"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"सक्षम करें"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> तब तक कार्य नहीं करेगा जब तक आप Google Play सेवाओं को सक्षम नहीं करते."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play सेवाएं सक्षम करना"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"इंस्टॉल करें"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play सेवाएं प्राप्त करना"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play सेवाएं त्रुटि"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से प्रयास करें."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस द्वारा समर्थित नहीं हैं."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"अपडेट करें"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play सेवाओं को अपडेट करें"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा जो वर्तमान में अपडेट हो रही हैं."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play सेवाओं के नए वर्शन की आवश्यकता है. यह स्वयं को जल्दी ही अपडेट करेगा."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"फ़ोन पर खोलें"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"प्रवेश करें"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google के साथ प्रवेश करें"</string>
+    <string msgid="4431314454967965046" name="dismiss_overlay_button_label">"छोड़ें"</string>
+    <string msgid="4031765397716487527" name="generic_cancel">"रहने दें"</string>
+    <string msgid="9120485112909311969" name="generic_yes">"हां"</string>
+    <string msgid="4674705273641635102" name="navigation_drawer_content_description">"मार्गदर्शक ड्रॉवर"</string>
+    <string msgid="4600747107629098989" name="time_difference_now">"अभी"</string>
+    <string msgid="3432160628957797741" name="time_difference_short_days_and_hours">"<ns1:g id="SHORT_DAYS">%1$s</ns1:g> <ns1:g id="SHORT_HOURS">%2$s</ns1:g>"</string>
+    <string msgid="4219196550677438545" name="time_difference_short_hours_and_minutes">"<ns1:g id="SHORT_HOURS">%1$s</ns1:g> <ns1:g id="SHORT_MINUTES">%2$s</ns1:g>"</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="6044628401320465106" name="time_difference_short_days"><item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> d</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_DAYS_0">%d</ns1:g> d</item>
+</plurals>
+    <plurals formatted="false" msgid="9209554600411186949" name="time_difference_short_hours"><item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> h</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_HOURS_0">%d</ns1:g> h</item>
+</plurals>
+    <plurals formatted="false" msgid="6799968572793078120" name="time_difference_short_minutes"><item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> m</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_0">%d</ns1:g> m</item>
+</plurals>
+    <plurals formatted="false" msgid="7958173734825557821" name="time_difference_words_days"><item quantity="other"><ns1:g id="NUMBER_OF_DAYS_1">%d</ns1:g> días</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_DAYS_0">%d</ns1:g> día</item>
+</plurals>
+    <plurals formatted="false" msgid="6659708596739126724" name="time_difference_words_hours"><item quantity="other"><ns1:g id="NUMBER_OF_HOURS_1">%d</ns1:g> horas</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_HOURS_0">%d</ns1:g> hora</item>
+</plurals>
+    <plurals formatted="false" msgid="5776851900234724977" name="time_difference_words_minutes"><item quantity="other"><ns1:g id="NUMBER_OF_MINUTES_1">%d</ns1:g> min</item>
+<item quantity="one"><ns1:g id="NUMBER_OF_MINUTES_0">%d</ns1:g> min</item>
+</plurals>
+    <string msgid="2392275098186720450" name="buttons_rect_bottom_center">"Parte inferior"</string>
+    <string msgid="8019030592199928760" name="buttons_rect_bottom_left">"Parte inferior izquierda"</string>
+    <string msgid="7032364303033228242" name="buttons_rect_bottom_right">"Parte inferior derecha"</string>
+    <string msgid="8926393267810862702" name="buttons_rect_left_bottom">"Parte inferior, a la izquierda"</string>
+    <string msgid="8454996931469487054" name="buttons_rect_left_center">"Parte central izquierda"</string>
+    <string msgid="4253496812046397202" name="buttons_rect_left_top">"Parte superior, a la izquierda"</string>
+    <string msgid="2953342748755410698" name="buttons_rect_right_bottom">"Parte inferior, a la derecha"</string>
+    <string msgid="6444930972483368545" name="buttons_rect_right_center">"Parte central derecha"</string>
+    <string msgid="8233353769931572306" name="buttons_rect_right_top">"Parte superior, a la derecha"</string>
+    <string msgid="701028376099498620" name="buttons_rect_top_center">"Parte superior"</string>
+    <string msgid="2793005097226316833" name="buttons_rect_top_left">"Parte superior izquierda"</string>
+    <string msgid="5242720590797179216" name="buttons_rect_top_right">"Parte superior derecha"</string>
+    <string msgid="1062213636886296984" name="buttons_round_bottom_center">"Parte inferior"</string>
+    <string msgid="4240105703428240165" name="buttons_round_bottom_left">"Parte inferior izquierda"</string>
+    <string msgid="2170403244243537583" name="buttons_round_bottom_left_lower">"Parte inferior izquierda, más abajo"</string>
+    <string msgid="4971879160739362911" name="buttons_round_bottom_left_upper">"Parte inferior izquierda, arriba"</string>
+    <string msgid="3805017532700326567" name="buttons_round_bottom_right">"Parte inferior derecha"</string>
+    <string msgid="6856386193261962647" name="buttons_round_bottom_right_lower">"Parte inferior derecha, más abajo"</string>
+    <string msgid="3297691901098662241" name="buttons_round_bottom_right_upper">"Parte inferior derecha, más arriba"</string>
+    <string msgid="4180117237132291640" name="buttons_round_center_left">"Parte central izquierda"</string>
+    <string msgid="2372638721705594674" name="buttons_round_center_right">"Parte central derecha"</string>
+    <string msgid="3660790088455649953" name="buttons_round_top_center">"Parte superior"</string>
+    <string msgid="1548749953449352214" name="buttons_round_top_left">"Parte superior izquierda"</string>
+    <string msgid="2662257990050998307" name="buttons_round_top_left_lower">"Parte superior izquierda, más abajo"</string>
+    <string msgid="8645976381442398995" name="buttons_round_top_left_upper">"Parte superior izquierda, arriba"</string>
+    <string msgid="223683024116278216" name="buttons_round_top_right">"Parte superior derecha"</string>
+    <string msgid="5362570598213836713" name="buttons_round_top_right_lower">"Parte superior derecha, más abajo"</string>
+    <string msgid="8652947447241978294" name="buttons_round_top_right_upper">"Parte superior derecha, más arriba"</string>
+    <string msgid="4431314454967965046" name="dismiss_overlay_button_label">"Salir"</string>
+    <string msgid="4031765397716487527" name="generic_cancel">"Cancelar"</string>
+    <string msgid="9120485112909311969" name="generic_yes">"Sí"</string>
+    <string msgid="4674705273641635102" name="navigation_drawer_content_description">"Panel lateral de navegación"</string>
+    <string msgid="4600747107629098989" name="time_difference_now">"ahora"</string>
+    <string msgid="3432160628957797741" name="time_difference_short_days_and_hours">"<ns1:g id="SHORT_DAYS">%1$s</ns1:g> <ns1:g id="SHORT_HOURS">%2$s</ns1:g>"</string>
+    <string msgid="4219196550677438545" name="time_difference_short_hours_and_minutes">"<ns1:g id="SHORT_HOURS">%1$s</ns1:g> <ns1:g id="SHORT_MINUTES">%2$s</ns1:g>"</string>
+</resources>

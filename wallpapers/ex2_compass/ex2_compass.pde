@@ -22,6 +22,14 @@ float roll;
 void setup() {
   fullScreen(P2D);
   orientation(PORTRAIT);
+  
+  context = getContext();  
+  listener = new SensorListener();
+  manager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
+  accelerometer = manager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+  magnetometer  = manager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+  manager.registerListener(listener, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+  manager.registerListener(listener, magnetometer, SensorManager.SENSOR_DELAY_NORMAL);  
 }
 
 void draw() {
@@ -50,23 +58,17 @@ void draw() {
   endShape();
 }
 
-public void onResume() {
-  super.onResume();  
-
-  context = surface.getContext();
-  
-  listener = new SensorListener();
-  manager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
-  accelerometer = manager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-  magnetometer  = manager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
-
-  manager.registerListener(listener, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
-  manager.registerListener(listener, magnetometer, SensorManager.SENSOR_DELAY_NORMAL);
+void resume() {
+  if (manager != null) {
+    manager.registerListener(listener, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+    manager.registerListener(listener, magnetometer, SensorManager.SENSOR_DELAY_NORMAL);  
+  }
 }
 
-public void onPause() {
-  super.onPause();
-  if (manager != null) manager.unregisterListener(listener);
+void pause() {
+  if (manager != null) {
+    manager.unregisterListener(listener);
+  }
 }
 
 class SensorListener implements SensorEventListener {

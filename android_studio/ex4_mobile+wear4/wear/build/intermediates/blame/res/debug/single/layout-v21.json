@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/layout-v21/accept_deny_dialog.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/layout-v21/accept_deny_dialog.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/layout-v21/dismiss_overlay.xml"
+    },
+    {
+        "merged": "/Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/wear/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
+        "source": "/Users/andres/.android/build-cache/c60f90082fb4950b32be5be6d5cb66a5a6625a61/output/res/layout-v21/overlay_confirmation.xml"
+    }
+]

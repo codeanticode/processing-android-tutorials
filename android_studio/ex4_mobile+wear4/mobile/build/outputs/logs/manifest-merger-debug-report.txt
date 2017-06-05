@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:2:11-55
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:3:35-60
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:3:11-34
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:4:11-69
+uses-sdk
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-v13:25.2.0] /Users/andres/.android/build-cache/d807bca2d7300a694f18fc1e43eef94794ca4158/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:cardview-v7:25.2.0] /Users/andres/.android/build-cache/d84090c9fa673746d99dbd48fc97999021c5613a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] /Users/andres/.android/build-cache/ea17180fb50b571e3816d298dec8ef69cc2f1123/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.0] /Users/andres/.android/build-cache/43faf78ffaf4f57c6395756815abeca60ecf22d0/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] /Users/andres/.android/build-cache/67311a409eda557d5c782f1e7d1ae8a9afb61cae/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/andres/.android/build-cache/52d4fe7916b2eeeb7ef2d3e34c3d069430b756cb/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/andres/.android/build-cache/5123c27483c19ccc32587dad2c48a9620f4cf80e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:design:25.2.0] /Users/andres/.android/build-cache/97f4c482906960993e168b0aa12b0c64c8de4d9b/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/andres/.android/build-cache/433462202e3d468df475e61f67880ca76c99511c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/andres/.android/build-cache/7fb67daa927b32a6b3b64058111d7a5dd05f9aed/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/andres/.android/build-cache/885bc9c0b15a302c5178e458000f3bd72672bafd/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/andres/.android/build-cache/d67eaeeff4f6472e060e42a2f4f2e53ee70c23db/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] /Users/andres/.android/build-cache/bd52ab98c93e4f8fd5c668b8721101415a4def69/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/andres/.android/build-cache/306c16b2ca870d5da770d1d55a7ad2a0d00c2690/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/andres/.android/build-cache/00f85c4c43ac57ef9de4deb5a0fb74185c5290d9/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/andres/.android/build-cache/23e7f6d359ddf76605e9a3507e592825ca4a2450/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/andres/.android/build-cache/4e3084f70717c7b071281d87746079a8a280443d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/andres/.android/build-cache/d53094422f415c77017845d926164d68a805e42c/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:25.2.0] /Users/andres/.android/build-cache/d807bca2d7300a694f18fc1e43eef94794ca4158/output/AndroidManifest.xml:23:9-52
+	android:targetSdkVersion
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:5:15-41
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+		INJECTED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:6:22-65
+application
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:8:5-24:19
+MERGED from [com.android.support:support-v13:25.2.0] /Users/andres/.android/build-cache/d807bca2d7300a694f18fc1e43eef94794ca4158/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.2.0] /Users/andres/.android/build-cache/d84090c9fa673746d99dbd48fc97999021c5613a/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] /Users/andres/.android/build-cache/ea17180fb50b571e3816d298dec8ef69cc2f1123/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.0] /Users/andres/.android/build-cache/43faf78ffaf4f57c6395756815abeca60ecf22d0/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] /Users/andres/.android/build-cache/67311a409eda557d5c782f1e7d1ae8a9afb61cae/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/andres/.android/build-cache/52d4fe7916b2eeeb7ef2d3e34c3d069430b756cb/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/andres/.android/build-cache/5123c27483c19ccc32587dad2c48a9620f4cf80e/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:design:25.2.0] /Users/andres/.android/build-cache/97f4c482906960993e168b0aa12b0c64c8de4d9b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/andres/.android/build-cache/36e83f8e8264dd422cf341dfa9135b9b5cb02e6e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/andres/.android/build-cache/433462202e3d468df475e61f67880ca76c99511c/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/andres/.android/build-cache/7fb67daa927b32a6b3b64058111d7a5dd05f9aed/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/andres/.android/build-cache/d67eaeeff4f6472e060e42a2f4f2e53ee70c23db/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/andres/.android/build-cache/bd52ab98c93e4f8fd5c668b8721101415a4def69/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/andres/.android/build-cache/306c16b2ca870d5da770d1d55a7ad2a0d00c2690/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/andres/.android/build-cache/00f85c4c43ac57ef9de4deb5a0fb74185c5290d9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/andres/.android/build-cache/23e7f6d359ddf76605e9a3507e592825ca4a2450/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/andres/.android/build-cache/4e3084f70717c7b071281d87746079a8a280443d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/andres/.android/build-cache/d53094422f415c77017845d926164d68a805e42c/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:11:9-43
+	android:supportsRtl
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:12:9-35
+	android:excludeFromRecents
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:15:9-42
+	android:noHistory
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:14:9-33
+	android:allowBackup
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:10:9-38
+	android:theme
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:13:9-40
+meta-data#com.google.android.wearable.beta.app
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:16:9-17:63
+	android:resource
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:17:20-61
+	android:name
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:16:20-71
+activity#processing.test.androidwatchexport.HandheldActivity
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:18:9-23:20
+	android:name
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:18:19-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /Users/andres/code/processing/git/processing-android-tutorials/android_studio/ex4_mobile+wear4/mobile/src/main/AndroidManifest.xml:21:27-74
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/andres/.android/build-cache/553bd7c2f6b55363934b35fa3e2f909e79de5745/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/andres/.android/build-cache/5123c27483c19ccc32587dad2c48a9620f4cf80e/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/andres/.android/build-cache/5123c27483c19ccc32587dad2c48a9620f4cf80e/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/andres/.android/build-cache/5123c27483c19ccc32587dad2c48a9620f4cf80e/output/AndroidManifest.xml:20:20-65
