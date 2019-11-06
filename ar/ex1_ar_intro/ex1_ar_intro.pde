@@ -1,29 +1,22 @@
 import processing.ar.*;
 
 ARTracker tracker;
-ARAnchor touchAnchor;
 ArrayList<ARAnchor> trackAnchors = new ArrayList<ARAnchor>();
+ARAnchor touchAnchor;
 PShape obj;
 
 void setup() {
   fullScreen(AR);
   obj = loadShape("model.obj");
-
   tracker = new ARTracker(this);
   tracker.start();
-  noStroke();
+  noStroke();  
 }
 
 void draw() {
   lights();
-
   drawObject(touchAnchor);
-  for (ARAnchor anchor : trackAnchors) {
-    if (anchor.isTracking()) drawSphere(anchor);
-    if (anchor.isStopped()) anchor.dispose();
-  }
-  tracker.clearAnchors(trackAnchors);
-  
+  drawAnchors();
   drawTrackables();
 }
 
@@ -40,42 +33,51 @@ void trackableEvent(ARTrackable t) {
   }
 }
 
+void drawAnchors() {
+  for (ARAnchor anchor : trackAnchors) {
+    if (anchor.isTracking()) drawSphere(anchor, 0.05);
+    if (anchor.isStopped()) anchor.dispose();
+  }
+  tracker.clearAnchors(trackAnchors);   
+}
+
+void drawTrackables() {
+  for (int i = 0; i < tracker.count(); i++) {
+    ARTrackable t = tracker.get(i);
+    pushMatrix();
+    t.transform();
+    float lx = t.lengthX();
+    float lz = t.lengthZ();    
+    if (mousePressed && t.isSelected(mouseX, mouseY)) {
+      fill(255, 0, 0, 100);
+    } else {
+      fill(255, 100);
+    }
+    drawPlane(lx, lz);
+    popMatrix();  
+  }  
+}
+
+void drawSphere(ARAnchor anchor, float r) {
+  anchor.attach();
+  fill(#CF79F5);
+  sphere(r);
+  anchor.detach();
+}
+
+void drawPlane(float lx, float lz) {
+  beginShape(QUADS);
+  vertex(-lx/2, 0, -lz/2);
+  vertex(-lx/2, 0, +lz/2);
+  vertex(+lx/2, 0, +lz/2);
+  vertex(+lx/2, 0, -lz/2);
+  endShape();  
+}
+
 void drawObject(ARAnchor anchor) {
   if (anchor != null) {
     anchor.attach();
     shape(obj);
     anchor.detach();
   }
-}
-
-void drawSphere(ARAnchor anchor) {
-  anchor.attach();
-  fill(#CF79F5);
-  sphere(0.05);
-  anchor.detach();
-}
-
-void drawTrackables() {
-  for (int i = 0; i < tracker.count(); i++) {
-    ARTrackable trackable = tracker.get(i);
-    if (!trackable.isTracking()) continue;
-
-    pushMatrix();
-    trackable.transform();
-    if (mousePressed && trackable.isSelected(mouseX, mouseY)) {
-      fill(255, 0, 0, 100);
-    } else {
-      fill(255, 100);
-    }
-
-    beginShape(QUADS);
-    float lx = trackable.lengthX();
-    float lz = trackable.lengthZ();
-    vertex(-lx/2, 0, -lz/2);
-    vertex(-lx/2, 0, +lz/2);
-    vertex(+lx/2, 0, +lz/2);
-    vertex(+lx/2, 0, -lz/2);
-    endShape();
-    popMatrix();
-  }  
 }
