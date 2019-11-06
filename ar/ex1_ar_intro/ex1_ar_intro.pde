@@ -16,13 +16,6 @@ void setup() {
 
 void draw() {
   lights();
-  
-  if (mousePressed) {
-    if (touchAnchor != null) touchAnchor.dispose();
-    ARTrackable hit = tracker.get(mouseX, mouseY);
-    if (hit != null) touchAnchor = new ARAnchor(hit);
-    else touchAnchor = null;
-  }
 
   drawObject(touchAnchor);
   for (ARAnchor anchor : trackAnchors) {
@@ -32,6 +25,13 @@ void draw() {
   tracker.clearAnchors(trackAnchors);
   
   drawTrackables();
+}
+
+void mousePressed() {
+  if (touchAnchor != null) touchAnchor.dispose();
+  ARTrackable hit = tracker.get(mouseX, mouseY);
+  if (hit != null) touchAnchor = new ARAnchor(hit);
+  else touchAnchor = null;
 }
 
 void trackableEvent(ARTrackable t) {
